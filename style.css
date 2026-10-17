@@ -905,3 +905,20 @@
   background: none;
   border-left-color: var(--accent);
 }
+/* ============ DESKTOP FIX: MEDIA LEFT, DETAILS RIGHT ============ */
+@media (min-width: 901px) {
+  .buy-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .showcase-wrap {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .btn-large {
+    max-width: 420px;
+  }
+}
